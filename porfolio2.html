@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/f4f4326081.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="top" id="top">
+            <nav>
+                <img src="./logo3.jpg" class="logo">
+                <ul id="sidemenu">
+                  <li> <a href="#top">Home</a></li>
+                  <li> <a href="#about">About Me</a></li>
+                  <li> <a href="#contact">Contact</a></li>
+                  <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+           
+            </nav>
+            <div class="header-text" id="top">
+                <p>Front-end</p>
+                <h1>hello H<span>aa</span>rd<span>h</span>ik here (☉｡☉)<span>!</span> </h1>
+
+            </div>
+        </div>
+    </div>
+    <!------about me----->
+    <div id="about">
+        <div class="middle">
+            <div class="row">
+                <div class="about-col-1">
+                   
+                    <div class="layer">
+                        <img src="./kurta.jpg">
+                        <br>
+                        <br>
+                        <div class="black">
+                        <h3><i class="fa-solid fa-cat"></i>meow :3</h3>
+                        <p>Reach me at</p></div>
+                        <div class="social-icon" id="red">
+                            <a href="https://instagram.com/haardhik_173?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/haardhik-kunder-31766b235"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://youtu.be/dQw4w9WgXcQ"><i class="fa-brands fa-reddit"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="subtitle" id="about">About me</h1>
+                    <p>Studying at DJ Sanghvi, second year Comps.<br>
+                        Loves to study new things,can be readily available in a moments notice.
+                        <br>My best quality is the passion driven attitude to solve a problem.
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        
+
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>HTML AND CSS</span><br>USE IN CREATING MANY FORMS AND WEBSITES</li>
+                            <li><span>BASIC C++</span><br>STRONG BASIC KNOWLEDGE</li>
+                            <li><span>javascript</span><br>STRONG BASIC KNOWLEDGE</li>
+                            <li><span>BASIC ML</span><br>THEORY</li>
+                            <li><span>MARKETING</span><br>A FIELD VERY CLOSE TO MY HEART</li>
+                            <li><span>CREATIVES</span><br>Reels, memes, shorts you name it. One thing there in no shortage of is ideas </li>
+                            
+
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+      <!-- ---MADE USING BLAH BLAH -->  
+<div id="services">
+    <div class="top">
+        <h1 class="subtile">Made using</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-css3"></i>
+                <h2>CSS</h2>
+                <p> USED TO ENHACE AND PUT COLORS INTO A BISIC HTML FORM. </p>
+
+            </div>
+            <div>
+                <i class="fa-brands fa-html5"></i>
+                <h2>HTML</h2>
+                <p> USED TO CREATE THE BASIC WEBSITE STRUCTURE.</p>
+                
+            </div>
+            <div>
+                <i class="fa-brands fa-js"></i>
+                <h2>JAVASCRIPTt</h2>
+                <p> USED TO MAKE A WEBSITE MADE USING HTML AND CSS SMART AND MODERN.</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="rows">
+            <div class="subtitle">
+            <h1 class="subtitle" id="contact">Contact Me</h1>
+            <div class="social-icons">
+                    <a href="https://instagram.com/haardhik_173?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/haardhik-kunder-31766b235"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://youtu.be/dQw4w9WgXcQ"><i class="fa-brands fa-reddit"></i></a>
+               
+                    
+            
+           </div>
+           <p id="small"><i class="fa-solid fa-envelope"></i>      kunderhaardhik@gmail.com</p>
+           <p id="small"><i class="fa-solid fa-phone"></i>   9987391509</p>
+        </div>
+            
+            </div>
+        </div>
+    </div>
+</div>
+<div class="services-list" id="resume">
+<h1>DOWNLOAD CV<a href="https://drive.google.com/file/d/1kcGSLxctkmfT5kNRNvHxfpdkwGPjoNa6/view?usp=drivesdk"><i class="fa-solid fa-download"></i></a></h1>
+</div>
+<h4 class="go"><a href="#top">TOP<i class="fa-solid fa-up-long"></i></a>
+
+</h4>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+
+</body>
+</html>
